@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/baia/Code/ReactNative/danzeng_pro/node_modules/react-native-baiachen-bugly/android/build/intermediates/res/merged/release/xml/rn_dev_preferences.xml",
+        "source": "/Users/baia/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/res/xml/rn_dev_preferences.xml"
+    },
+    {
+        "merged": "/Users/baia/Code/ReactNative/danzeng_pro/node_modules/react-native-baiachen-bugly/android/build/intermediates/res/merged/release/xml/provider_paths.xml",
+        "source": "/Users/baia/.gradle/caches/transforms-2/files-2.1/5bd47c7d0f7aab6f22b90900d3d54b8e/jetified-crashreport_upgrade-1.5.23/res/xml/provider_paths.xml"
+    }
+]
