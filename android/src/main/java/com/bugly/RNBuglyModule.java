@@ -62,6 +62,10 @@ public class RNBuglyModule extends ReactContextBaseJavaModule {
     Log.i("ReactNative-bugly", "getUpgradeInfo()");
     UpgradeInfo upgradeInfo = Beta.getUpgradeInfo();
     WritableMap map = Arguments.createMap();
+    if(upgradeInfo == null) {
+      promise.resolve(map);
+      return;
+    }
     map.putString("newFeature", upgradeInfo.newFeature);
     map.putInt("versionCode", upgradeInfo.versionCode);
     map.putString("versionName", upgradeInfo.versionName);
